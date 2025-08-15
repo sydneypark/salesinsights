@@ -5,8 +5,6 @@ aggregates:
   - unique_name: order_uda
     label: order_uda
     attributes:
-      - name: Customer Name
-        dimension: Customer Dimension
       - name: order
         dimension: Order Dimension
     metrics:
