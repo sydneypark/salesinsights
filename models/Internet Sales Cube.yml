@@ -9,6 +9,7 @@ aggregates:
         dimension: Order Dimension
     metrics:
       - calculatedtax1
+  - caching: engine-memory
 dimensions:
   - Color Dimension
   - Size Dimension
