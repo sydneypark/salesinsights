@@ -7,8 +7,16 @@ aggregates:
     attributes:
       - name: order
         dimension: Order Dimension
+    caching: engine-memory
     metrics:
       - calculatedtax1
+  - unique_name: test
+    label: test
+    attributes:
+      - name: Product Line
+        dimension: Product Dimension
+    metrics:
+      - lastproductunitprice
     caching: engine-memory
 dimensions:
   - Color Dimension
