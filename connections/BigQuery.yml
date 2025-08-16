@@ -3,4 +3,4 @@ object_type: connection
 label: BigQuery 
 as_connection: BigQuery 
 database: ci-pipeline-199520 
-schema: atscale
+schema: 1young
